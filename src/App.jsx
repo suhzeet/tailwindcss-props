@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <h1 className=" p-4 rounded-xl bg-blue-500">Tailwind CSS</h1>
-      <Card />
+      <Card username="sujit" btnText="click me" />
+      <Card username="sujay" />
     </>
   );
 }
